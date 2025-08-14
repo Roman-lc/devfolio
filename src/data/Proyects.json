@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "el primero",
+        "description": "Primera description",
+        "image": "https://picsum.photos/200/300",
+        "url": "google.com",
+        "technologies": ["React", "JavaScript", "CSS"]
+    },
+    {
+        "id": 2,
+        "name": "Segundo proyecto",
+        "description": "Segunda description",
+        "image": "https://picsum.photos/200/300",
+        "url": "google.com",
+        "technologies": ["React", "JavaScript", "CSS"]
+    },
+    {
+        "id": 1,
+        "name": "Tercer proyecto",
+        "description": "tercera description",
+        "image": "https://picsum.photos/200/300",
+        "url": "google.com",
+        "technologies": ["React", "JavaScript", "CSS"]
+    }
+
+]
