@@ -1,2 +1,28 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+
+
+
+/* Grilla */
+.mask-grid {
+  -webkit-mask-image: 
+    repeating-linear-gradient(0deg, black 0 40px, transparent 40px 41px),
+    repeating-linear-gradient(90deg, black 0 40px, transparent 40px 41px);
+  -webkit-mask-repeat: repeat;
+  -webkit-mask-composite: destination-out;
+
+  mask-image: 
+    repeating-linear-gradient(0deg, black 0 40px, transparent 40px 41px),
+    repeating-linear-gradient(90deg, black 0 40px, transparent 40px 41px);
+  mask-repeat: repeat;
+  mask-composite: intersect;
+}
+
+/* Sombra interna encima de todo */
+
+
+
